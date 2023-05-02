@@ -1,6 +1,6 @@
 import React from "react"
-import TextTransform from "../components/TextTransform"
-import Button from "../components/Button"
+import TextTransform from "../components/TextTransform" //- Dê um bom nome ao seu componente
+import Button from "../components/Button" // - Dê um bom nome ao seu componente
 import { Contanier } from "./styles"
 
 
