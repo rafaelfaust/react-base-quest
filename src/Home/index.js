@@ -1,8 +1,16 @@
-import React from "react";
-import TextTransform from "../components/TextTransform";
+import React from "react"
+import TextTransform from "../components/TextTransform"
+import Button from "../components/Button"
+import { Contanier } from "./styles"
+
 
 function App() {
-  return <TextTransform text="Olá, Mundo" color="#FF5733" />
+  return (
+    <Contanier>
+      <TextTransform text="Olá, Mundo" color="#FF5733" />
+      <Button label="Clique aqui"/>
+    </Contanier>
+  )
 }
 
 export default App;

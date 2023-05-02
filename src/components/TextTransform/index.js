@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const TextTransform = (props) => {
   const { text, color } = props;
@@ -6,9 +6,7 @@ const TextTransform = (props) => {
     color: color,
     textTransform: 'uppercase',
   }
-  return (
-    <p style={styles}>{text}</p>
-  );
+  return <p style={styles}>{text}</p>
 }
 
 export default TextTransform;
